@@ -7,7 +7,7 @@ bool isVowel(char c) {
 	return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
 }
 
-int main(int argc, char const *argv[])
+int main()
 {
 	string s;
 	cin >> s;
