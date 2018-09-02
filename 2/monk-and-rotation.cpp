@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
 	while(t--) {
 		int n, k;
 		cin >> n >> k;
+		k %= n;
 		int arr[n];
 		int count = 0;
 		while(count < n) {
@@ -18,6 +19,7 @@ int main(int argc, char const *argv[])
 		for(int i=0; i<n; i++) {
 			cout << arr[i] << ' ';
 		}
+		cout << endl;
 	}
 	return 0;
 }
